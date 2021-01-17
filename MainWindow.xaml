@@ -1,0 +1,17 @@
+﻿<Window x:Name="StartWindow" x:Class="Ресторан.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ресторан"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Картинки/Фон для диплома.jpg"/>
+        </Grid.Background>
+        <Button x:Name="Aut" Content="Авторизация" HorizontalAlignment="Left" Margin="299,288,0,0" VerticalAlignment="Top" Width="208" Height="64" Click="Aut_Click" Template="{DynamicResource ButtonControlTemplate1}" Background="#FFDDDDDD"/>
+        <TextBox x:Name="pass" HorizontalAlignment="Left" Height="43" Margin="299,155,0,0" TextWrapping="Wrap" Text="qwe" VerticalAlignment="Top" Width="208"/>
+
+    </Grid>
+</Window>
